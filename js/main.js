@@ -13,6 +13,7 @@ $(function () {
       '<button type="button" class="slick-arrow slick-next"><img src="images/arrow-right.svg" alt="next arrow"></button>',
     prevArrow:
       '<button type="button" class="slick-arrow slick-prev"><img src="images/arrow-left.svg" alt="prev arrow"></button>',
+    // appendArrows: $(".arrows-box"),
   });
   $(".hero__inner").on(
     "afterChange",
@@ -23,9 +24,8 @@ $(function () {
 
   $(".benefits__inner").slick({
     slidesToShow: 3,
-    centerMode: true,
+    slidesToScroll: 1,
     dots: false,
-    variableWidth: true,
     nextArrow:
       '<button type="button" class="slick-arrow slick-next"><img src="images/arrow-right2.svg" alt="next arrow"></button>',
     prevArrow:
