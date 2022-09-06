@@ -535,3 +535,138 @@ body {
 .questions__text span {
   font-weight: 700;
 }
+.footer {
+  background-color: #1e2e36;
+  color: #ffffff;
+}
+.footer__inner {
+  padding: 0 0 0 51px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__block {
+  position: relative;
+}
+.footer__btn-up {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #44c697;
+  justify-content: center;
+  position: absolute;
+  left: -15px;
+  top: -10px;
+  padding: 17px;
+}
+.footer__logo {
+  margin: 50px 0 50px 0;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__lists {
+  display: flex;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer__menu-item {
+  margin-bottom: 15px;
+}
+.footer__menu-item::before {
+  content: "—";
+  color: #44c697;
+}
+
+.footer__menu + .footer__menu {
+  margin-left: 55px;
+  margin-right: 87px;
+}
+
+.footer__contacts {
+  margin-bottom: 30px;
+}
+.footer__contacts-adress {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.footer__contacts-adress address {
+  font-style: normal;
+}
+.footer__contacts-adress::before {
+  content: url(../images/map.svg);
+  width: 24px;
+  height: 24px;
+}
+.footer__contacts-shedule {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.footer__contacts-shedule::before {
+  content: url(../images/calendar.svg);
+  width: 24px;
+  height: 24px;
+}
+.footer__contacts-phone {
+  font-weight: 700;
+  color: #44c697;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.footer__contacts-phone::before {
+  content: url(../images/smartphone.svg);
+  width: 24px;
+  height: 24px;
+}
+.footer__contacts-phone2 {
+  margin-left: 25px;
+  font-weight: 700;
+  color: #44c697;
+}
+
+.footer__social-text {
+  margin-bottom: 15px;
+}
+
+.footer__social-item {
+  height: 40px;
+  margin-right: 25px;
+}
+.header__social-menu {
+  display: flex;
+  align-items: center;
+}
+.header__social-item {
+  height: 40px;
+  margin-right: 25px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.footer__bottom-copyright {
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 150px;
+}
+.footer__bottom-glyanec {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  position: relative;
+}
+.footer__bottom-glyanec::before {
+  content: url(../images/logo-glyanec.svg);
+  width: 20px;
+  height: 21px;
+  position: absolute;
+  left: -22px;
+  top: -5px;
+}
