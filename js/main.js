@@ -31,21 +31,15 @@ $(function () {
     prevArrow:
       '<button type="button" class="slick-arrow slick-prev"><img src="images/arrow-left2.svg" alt="prev arrow"></button>',
   });
+  $(".header__list-btn").click(function () {
+    $(".header__list").toggleClass("header__list-active");
+  });
+  $(".header__menu-btn").click(function () {
+    $(".header__menu").toggleClass("header__menu-active");
+  });
 });
 
-/* $(function () {
-  $(".hero__inner").on(`init reInit`, function (event, slick) {
-    $(".counter").text(1 + " / " + slick.slideCount);
-  });
-  $(".hero__inner").on(
-    `afterChange`,
-    function (event, slick, currentSlide, nextSlide) {
-      $(".counter").text(currentSlide + 1 + " / " + slick.slideCount);
-    }
-  );
-
-  $(".hero__inner").slick({
-    slidesToShow: 1,
-    dots: false,
-  });
-}); */
+/* document.querySelector(".header__list-btn").onclick = () => {
+  document.querySelector(".header__list")
+    .classList.toggle("header__list-active");
+}; */
